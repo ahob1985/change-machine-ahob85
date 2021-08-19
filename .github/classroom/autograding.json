@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "TestChangeMachine",
+      "name": "ChangeMachineTest",
       "setup": "",
       "run": "gradle test",
       "input": "",
