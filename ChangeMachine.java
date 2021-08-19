@@ -14,7 +14,7 @@ public class ChangeMachine
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to Change Machine!");
         System.out.print("Please enter cents as a positive integer: ");
-        int cents = sc.nextInt();
+        int cents = Integer.parseInt(sc.nextLine());
         System.out.println(cents + " cents makes:");
         int quarters = cents / 25;
         cents = cents - quarters * 25;
